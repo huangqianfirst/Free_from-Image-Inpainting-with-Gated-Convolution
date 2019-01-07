@@ -31,7 +31,7 @@ The first image is image with mask, the second is inpaint result, the last one i
 * remove some objects
 ![Alt text](./imgs/test2_out_194_992000_m3.png)
 
-There are some other result.
+There are some other results.
 ![Alt text](./imgs/00001738_out_incp.png)
 ![Alt text](./imgs/00001718_out_incp.png)
 ![Alt text](./imgs/00003233_out_194_992000_m1.png)

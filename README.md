@@ -1,4 +1,3 @@
-Image Inpaint / 图像修复
 # Free_from Image Inpainting with Gated Convolution
 This result is the TensorFlow implemention of  paper 'Free_from Image Inpainting with Gated Convolution' by JiahuiYu.Thanks to JiahuiYu great work.
 We all know DeepFillv1 is mainly works on rectangle mask, while this Free-From version can complete image on free-form masks.

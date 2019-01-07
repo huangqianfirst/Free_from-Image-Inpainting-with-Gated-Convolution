@@ -13,9 +13,9 @@ Gated convoltion learn soft masks automatically from data. The structure is like
 It‘’s called SNPatchGAN, which is more faster and stable during GAN training. But different from the hinge loss in this paper, i use 'softplus' loss, other loss function perform with 'fitness' and 'goodness' can also work.
 2. Free-from mask:
 
-  This mask is similar in shape to holes drawn in real use-cases. It looks like below.
+&emsp;This mask is similar in shape to holes drawn in real use-cases. It looks like below.
 
-  ![Alt text](./imgs/freemask2.png)
+ &emsp;![Alt text](./imgs/freemask2.png)
 
 ## result
 This work can use for fix smudge area, or removal watermark , or removal some objects you don't want.

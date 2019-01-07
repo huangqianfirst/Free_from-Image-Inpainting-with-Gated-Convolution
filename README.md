@@ -8,7 +8,13 @@ We all know DeepFillv1 is mainly works on rectangle mask, while this Free-From v
 ![Alt text](./imgs/net.PNG)
 *  The key special convlution -- gated convolution.
 Gated convoltion learn soft masks automatically from data. The structure is like below.
+<<<<<<< HEAD
   ![Alt text](./imgs/gated conv.PNG)
+=======
+
+![Alt text](./imgs/gated\ conv.PNG)
+
+>>>>>>> 85d354830c0ae712cb5bc008c1a78672b57d54e9
 *  The output of discriminator network
 It‘’s called SNPatchGAN, which is more faster and stable during GAN training. But different from the hinge loss in this paper, i use 'softplus' loss, other loss function perform with 'fitness' and 'goodness' can also work.
 2. Free-from mask:

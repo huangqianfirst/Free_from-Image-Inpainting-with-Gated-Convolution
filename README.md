@@ -18,6 +18,7 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
 &emsp;This mask is similar in shape to holes drawn in real use-cases. It looks like below.
 
  &emsp;![Alt text](./imgs/freemask2.png)
+ 
 How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
 
 ## result

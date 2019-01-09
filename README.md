@@ -29,12 +29,12 @@ The first image is image with mask, the second is inpaint result, the last one i
 * remove watermark
 ![Alt text](./imgs/wooden_out_194_992000_googlein_fm2.png)
 * remove some objects
-![Alt text](./imgs/test2_out_194_992000_m3.png)
+![Alt text](./imgs/test2_out_194_998000.png)
 
 There are some other results.
 ![Alt text](./imgs/00001738_out_incp.png)
 ![Alt text](./imgs/00001718_out_incp.png)
-![Alt text](./imgs/00003233_out_194_992000_m1.png)
+![Alt text](./imgs/00003233_out_194_998000.png)
 ![Alt text](./imgs/00004809_out_194_992000_m1_7.png)
 
 Any questions are welcome.

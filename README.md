@@ -46,7 +46,7 @@ There are some other results.
 Any questions are welcome.
 
 ## Add sketch
-After training sketch pairs data, I got blow result.
+After training sketch pairs data, I got blow results.
 The first column is the input image with mask and sketch, the middle is the result, and the last one is the origin image. As we can see, sketch can help to change the shape of objects. Additionally,i found sketch very helpful to make the edge transition more natural after inpaint compare with the same mask but without sketch.
 
 ![Alt text](./imgs/212_12301_out_035_732_2_concat.png)

@@ -24,6 +24,10 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
  &emsp;![Alt text](./imgs/freemask2.png)
  
 How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
+3. sketch
+I uses Places2 datasets, crop it too 256*256 and generate corresponding sketch.It looks like below.
+![Alt text](./imgs/00002052_concat.png)
+![Alt text](./imgs/00002852_concat.png)
 
 ## result
 This work can use for fix smudge area, or removal watermark , or removal some objects you don't want.
@@ -40,9 +44,16 @@ There are some other results.
 ![Alt text](./imgs/00001718_out_incp.png)
 ![Alt text](./imgs/00003233_out_194_998000.png)
 ![Alt text](./imgs/00004809_out_194_992000_m1_7.png)
-
+![Alt text](./imgs/sk1_out_035_732_2_concat.png)
+![Alt text](./imgs/test6_out_172_94000.png)
 Any questions are welcome.
 
+## Add sketch
+After training sketch pairs data, I got blow result.
+The first column is the input image with mask and sketch, the middle is the result, and the last one is the origin image. As we can see, sketch can help to change the shape of objects. Additionally,i found sketch very helpful to make the edge transition more natural after inpaint compare with the same mask but without sketch.
+
+![Alt text](./imgs/212_12301_out_035_732_2_concat.png)
+![Alt text](./imgs/man3_out_035_732_2_concat.png)
 ## Citing
 ```
 @article{yu2018generative,

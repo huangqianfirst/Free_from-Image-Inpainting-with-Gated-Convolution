@@ -4,7 +4,7 @@ We all know DeepFillv1 is mainly works on rectangle mask, while this Free-From v
 
 ## Introduction
 
-1. The architecture of this free-form image inpainting network：
+1. The architecture of this free-form image inpainting network.
 ![Alt text](./imgs/net.PNG)
 *  The key special convlution -- gated convolution.
 Gated convoltion learn soft masks automatically from data. The structure is like below.
@@ -12,16 +12,18 @@ Gated convoltion learn soft masks automatically from data. The structure is like
   ![Alt text](./imgs/gated conv.PNG)
 =======
 
-![Alt text](./imgs/gated\ conv.PNG)
+![Alt text](./imgs/gated_conv.PNG)
 
 >>>>>>> 85d354830c0ae712cb5bc008c1a78672b57d54e9
 *  The output of discriminator network
 It‘’s called SNPatchGAN, which is more faster and stable during GAN training. But different from the hinge loss in this paper, i use 'softplus' loss, other loss function perform with 'fitness' and 'goodness' can also work.
-2. Free-from mask:
+2. Free-from mask.
 
 &emsp;This mask is similar in shape to holes drawn in real use-cases. It looks like below.
 
  &emsp;![Alt text](./imgs/freemask2.png)
+ 
+How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
 
 ## result
 This work can use for fix smudge area, or removal watermark , or removal some objects you don't want.
@@ -31,12 +33,12 @@ The first image is image with mask, the second is inpaint result, the last one i
 * remove watermark
 ![Alt text](./imgs/wooden_out_194_992000_googlein_fm2.png)
 * remove some objects
-![Alt text](./imgs/test2_out_194_992000_m3.png)
+![Alt text](./imgs/test2_out_194_998000.png)
 
-There are some other result.
+There are some other results.
 ![Alt text](./imgs/00001738_out_incp.png)
 ![Alt text](./imgs/00001718_out_incp.png)
-![Alt text](./imgs/00003233_out_194_992000_m1.png)
+![Alt text](./imgs/00003233_out_194_998000.png)
 ![Alt text](./imgs/00004809_out_194_992000_m1_7.png)
 
 Any questions are welcome.

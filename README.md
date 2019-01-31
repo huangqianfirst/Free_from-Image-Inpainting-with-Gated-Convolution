@@ -19,7 +19,7 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
 
  &emsp;![Alt text](./imgs/freemask2.png)
  
-How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
+&emsp;How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
 
 3. sketch
 I uses Places2 datasets, crop it too 256*256 and generate corresponding sketch.It looks like below.

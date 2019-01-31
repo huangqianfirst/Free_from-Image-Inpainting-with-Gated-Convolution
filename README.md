@@ -23,9 +23,10 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
 
 3. Make sketch
 
-&emsp;I used Places2 datasets as train datasets, crop every train image size to 256*256 and generate corresponding sketch by HED. The sketch results looks like below.
+&emsp;I used Places2 datasets as train datasets, crop every train image size to 256*256 and generate corresponding sketch by HED. The &emsp;sketch results looks like below.
 
 &emsp;![Alt text](./imgs/00002052_concat.png)
+
 &emsp;![Alt text](./imgs/00002852_concat.png)
 
 ## result

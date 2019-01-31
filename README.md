@@ -21,8 +21,9 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
  
 &emsp;How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
 
-3. sketch
-I uses Places2 datasets, crop it too 256*256 and generate corresponding sketch.It looks like below.
+3. Make sketch
+
+I used Places2 datasets as train datasets, crop every train image size to 256*256 and generate corresponding sketch by HED. The sketch results looks like below.
 ![Alt text](./imgs/00002052_concat.png)
 ![Alt text](./imgs/00002852_concat.png)
 

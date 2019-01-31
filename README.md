@@ -11,7 +11,6 @@ Gated convoltion learn soft masks automatically from data. The structure is like
 
 ![Alt text](./imgs/gated_conv.PNG)
 
->>>>>>> 85d354830c0ae712cb5bc008c1a78672b57d54e9
 *  The output of discriminator network
 It‘’s called SNPatchGAN, which is more faster and stable during GAN training. But different from the hinge loss in this paper, i use 'softplus' loss, other loss function perform with 'fitness' and 'goodness' can also work.
 2. Free-from mask.
@@ -21,6 +20,7 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
  &emsp;![Alt text](./imgs/freemask2.png)
  
 How to make masks, reference here: https://github.com/JiahuiYu/generative_inpainting/issues/62
+
 3. sketch
 I uses Places2 datasets, crop it too 256*256 and generate corresponding sketch.It looks like below.
 ![Alt text](./imgs/00002052_concat.png)

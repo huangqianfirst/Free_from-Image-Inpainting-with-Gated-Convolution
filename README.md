@@ -6,8 +6,8 @@ We all know DeepFillv1 is mainly works on rectangle mask, while this Free-From v
 
 1. The architecture of this free-form image inpainting network.
 ![Alt text](./imgs/net.PNG)
-*  The key special convlution -- gated convolution.
-Gated convoltion learn soft masks automatically from data. The structure is like below.
+*  Gated convolution.
+Gated convoltion learns soft masks automatically from input data as. The structure is like below.
 
 ![Alt text](./imgs/gated_conv.PNG)
 
@@ -23,7 +23,7 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
 
 3. Make sketch
 
-&emsp;I used Places2 datasets as train datasets, crop every train image size to 256\*256 and generate corresponding sketch by HED model. The sketch results looks like below.
+&emsp;I used Places2 datasets as train datasets, crop every train image size to 256\*256 and generate corresponding sketch by HED &emsp;model. The sketch results looks like below.
 
 &emsp;![Alt text](./imgs/00002052_concat.png)
 

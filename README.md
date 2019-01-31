@@ -7,7 +7,7 @@ We all know DeepFillv1 is mainly works on rectangle mask, while this Free-From v
 1. The architecture of this free-form image inpainting network.
 ![Alt text](./imgs/net.PNG)
 *  Gated convolution.
-Gated convoltion learns soft masks automatically from input data as. The structure is like below.
+Gated convoltion learns soft masks automatically from input data. The structure is like below.
 
 ![Alt text](./imgs/gated_conv.PNG)
 
@@ -29,7 +29,7 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
 
 &emsp;![Alt text](./imgs/00002852_concat.png)
 
-## result
+## Result
 This work can use for fix smudge area, or removal watermark , or removal some objects you don't want.
 The first image is image with mask, the second is inpaint result, the last one is the original image.
 * fix smudge area
@@ -49,8 +49,8 @@ There are some other results.
 Any questions are welcome.
 
 ## Add sketch
-After training sketch pairs data, I got blow results.
-The first column is the input image with mask and sketch, the middle is the result, and the last one is the origin image. As we can see, sketch can help to change the shape of objects. Additionally,i found sketch can be very helpful to make the edge transition more natural after complete compare with the same mask but without sketch.
+After training image with sketch data, i got blow results.
+The first column is the input image with mask and sketch, the middle is mine result, and the last one is the original image. As we can see, sketch can help to change the shape of objects. Additionally,i found sketch can be very helpful to make the edge transition more natural after completed compare with the result with same mask but no sketch.
 
 ![Alt text](./imgs/212_12301_out_035_732_2_concat.png)
 ![Alt text](./imgs/man3_out_035_732_2_concat.png)

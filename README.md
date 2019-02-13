@@ -23,7 +23,7 @@ It‘’s called SNPatchGAN, which is more faster and stable during GAN training
 
 3. Make sketch
 
-&emsp;I used Places2 datasets as train datasets, crop every train image size to 256\*256 and generate corresponding sketch by HED &emsp;model. The sketch results looks like below.
+&emsp;I used Places2 datasets as train datasets, crop every train image size to 256\*256 and generate corresponding sketch by HED model. The sketch results looks like below.
 
 &emsp;![Alt text](./imgs/00002052_concat.png)
 
@@ -51,6 +51,7 @@ Any questions are welcome.
 ## Add sketch
 After training image with sketch data, i got below results.
 The first column is the input image with mask and sketch, the middle is mine result, and the last one is the original image. As we can see, sketch can help to change the shape of objects. Additionally,i found sketch can be very helpful to make the edge transition more natural after completed compare with the result with same mask but no sketch.
+You click [here](https://huangqianfirst.github.io/2019/02/11/inpaint-sketch-v1/) for more discussions about 'How to make sketch work for image completion'.
 
 ![Alt text](./imgs/212_12301_out_035_732_2_concat.png)
 ![Alt text](./imgs/man3_out_035_732_2_concat.png)

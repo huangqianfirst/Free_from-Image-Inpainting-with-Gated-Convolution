@@ -54,6 +54,9 @@ The first column is the input image with mask and sketch, the middle is mine res
 
 ![Alt text](./imgs/212_12301_out_035_732_2_concat.png)
 ![Alt text](./imgs/man3_out_035_732_2_concat.png)
+![Alt text](./imgs/test6_out_035_732_ws_origin_concat.png)
+![Alt text](./imgs/test10_out_035_712_ws_concat.png)
+
 ## Citing
 ```
 @article{yu2018generative,
